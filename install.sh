@@ -24,7 +24,7 @@ sudo pacman -S oh-my-zsh-git
 cp /usr/share/oh-my-zsh/zshrc ~/.zshrc
 vim ~/.zshrc
 ## ZSH_THEME="agnoster"
-chsh -s /bin/zsh
+chsh -s $(which zsh)
 ## 注销
 
 # 安装 Powerline Fonts
@@ -37,6 +37,7 @@ sudo pacman -S go go-tools git
 # 配置 Git
 git config --global user.name "Echowxsy"
 git config --global user.email "echowxsy@gmail.com"
+
 
 # 安装 Rime 输入法
 sudo pacman -S ibus-rime
@@ -62,10 +63,18 @@ sudo pacman -S visual-studio-code
 # 外观
 sudo pacman -S paper-icon-theme-git
 
+# 安装 VirtualBox 
+sudo pacman -S virtualbox
+reboot
 
+# 安装 Vagrant
+sudo pacman -S vagrant
 
+# 生成 SSH key
+ssh-keygen -t rsa -C "echowxsy@gmail.com"
 
-
-
-
-
+# 安装 Homestead
+git clone https://github.com/laravel/homestead.git Homestead
+cd Homestead
+git checkout tags/v3.1.0 -b v3.1.0
+bash init.sh
