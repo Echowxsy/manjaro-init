@@ -65,10 +65,14 @@ sudo pacman -S paper-icon-theme-git
 
 # 安装 VirtualBox 
 sudo pacman -S virtualbox
+sudo pacman -S linux49-virtualbox-guest-modules 
+sudo pacman -S linux49-virtualbox-host-modules
 reboot
 
 # 安装 Vagrant
 sudo pacman -S vagrant
+## vagrant ssh
+## sudo rm -f /etc/udev/rules.d/70-persistent-net.rules
 
 # 生成 SSH key
 ssh-keygen -t rsa -C "echowxsy@gmail.com"
@@ -78,3 +82,6 @@ git clone https://github.com/laravel/homestead.git Homestead
 cd Homestead
 git checkout tags/v3.1.0 -b v3.1.0
 bash init.sh
+
+# 安装 Tmux 
+sudo pacman -S tmux
