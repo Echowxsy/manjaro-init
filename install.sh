@@ -68,6 +68,10 @@ sudo pacman -S visual-studio-code
 # 外观
 sudo pacman -S paper-icon-theme-git
 
+# Grub 美化
+yaourt -S grub2-theme-vimix-git
+
+
 # 安装 VirtualBox 
 sudo pacman -S virtualbox
 sudo pacman -S linux49-virtualbox-guest-modules 
