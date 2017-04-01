@@ -27,12 +27,17 @@ vim ~/.zshrc
 chsh -s $(which zsh)
 ## 注销
 
+
+# 安装编译环境
+sudo pacman -S go go-tools git 
+yaourt -S libselinux
+sudo pacman -S libtinfo
+
 # 安装 Powerline Fonts
 yaourt -S powerline-fonts-git 
 ## 修改 Terminal 配置
 
-# 安装编译环境
-sudo pacman -S go go-tools git 
+
 
 # 配置 Git
 git config --global user.name "Echowxsy"
