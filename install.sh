@@ -29,6 +29,7 @@ chsh -s /bin/zsh
 
 # 安装 Powerline Fonts
 yaourt -S powerline-fonts-git 
+## 修改 Terminal 配置
 
 # 安装编译环境
 sudo pacman -S go go-tools git 
@@ -55,9 +56,11 @@ sudo pacman -S google-chrome
 
 # 安装 VSCode
 sudo pacman -S visual-studio-code
-## 安装插件 vscode-icons;shell-format;Beautify
+## 安装插件 vscode-icons;Beautify
 ## 文件 > 首选项 > 文件图标主题：VSCode Icons
-## go get -u github.com/mvdan/sh/cmd/shfmt to install
+
+# 外观
+sudo pacman -S paper-icon-theme-git
 
 
 
