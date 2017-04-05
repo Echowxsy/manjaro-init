@@ -101,8 +101,10 @@ bash init.sh
 sudo pacman -S tmux
 
 # 安装QQ
-yaourt -S deepinwine-qq
-# yaourt -S deepin-crossover
+# yaourt -S deepinwine-qq
+yaourt -S deepin-crossover
+yaourt -S lib32-libxslt lib32-libxcomposite lib32-libxinerama 
+yaourt -S lib32-fontconfig lib32-gnutls 
 ## 打开 CrossOver，选择试用
 ## sudo cp crossover-crack/winewrapper.exe.so /opt/cxoffice/lib/wine
 ## sudo cp fonts/msyh.ttf /opt/cxoffice/share/wine/fonts/ume-ui-gothic.ttf
