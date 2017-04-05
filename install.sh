@@ -19,6 +19,12 @@ sudo vim /etc/pacman.conf
 sudo pacman -Sy
 sudo pacman -S archlinuxcn-keyring
 
+# pacman 加速
+sudo pacman -S axel
+sudo vim /etc/pacman.conf
+## XferCommand = /usr/bin/axel -n 5 -a -o %o %u
+
+
 # Github 加速
 sudo vim /etc/hosts
 ## 151.101.72.249 global-ssl.fastly.net
