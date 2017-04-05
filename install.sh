@@ -102,5 +102,6 @@ sudo pacman -S tmux
 
 # 安装QQ
 yaourt -S deepinwine-qq
+# yaourt -S deepin-crossover
 ## 打开 CrossOver，选择试用
 ## sudo cp crossover-crack/winewrapper.exe.so /opt/cxoffice/lib/wine
