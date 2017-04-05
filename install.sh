@@ -19,6 +19,11 @@ sudo vim /etc/pacman.conf
 sudo pacman -Sy
 sudo pacman -S archlinuxcn-keyring
 
+# Github 加速
+sudo vim /etc/hosts
+## 151.101.72.249 global-ssl.fastly.net
+## 192.30.253.112 github.com
+
 # 安装 oh-my-zsh
 sudo pacman -S oh-my-zsh-git
 cp /usr/share/oh-my-zsh/zshrc ~/.zshrc
@@ -36,8 +41,6 @@ sudo pacman -S libtinfo
 # 安装 Powerline Fonts
 yaourt -S powerline-fonts-git 
 ## 修改 Terminal 配置
-
-
 
 # 配置 Git
 git config --global user.name "Echowxsy"
@@ -96,3 +99,7 @@ bash init.sh
 
 # 安装 Tmux 
 sudo pacman -S tmux
+
+# 安装QQ
+yaourt -S deepinwine-qq
+## sudo cp crossover-crack/winewrapper.exe.so /opt/cxoffice/lib/wine
