@@ -1,0 +1,8 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Wine\Fonts\Replacements]
+"@MS UI Gothic"="@Microsoft YaHei"
+"Arial"="Microsoft YaHei"
+"Gulim"="Microsoft YaHei"
+"Lucida Console"="Microsoft YaHei"
+"MS UI Gothic"="Microsoft YaHei"

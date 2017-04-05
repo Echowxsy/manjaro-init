@@ -105,3 +105,4 @@ yaourt -S deepinwine-qq
 # yaourt -S deepin-crossover
 ## 打开 CrossOver，选择试用
 ## sudo cp crossover-crack/winewrapper.exe.so /opt/cxoffice/lib/wine
+## sudo cp fonts/msyh.ttf /opt/cxoffice/share/wine/fonts/ume-ui-gothic.ttf
