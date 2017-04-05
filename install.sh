@@ -76,7 +76,9 @@ yaourt -S grub2-theme-vimix-git
 sudo pacman -S virtualbox
 sudo pacman -S linux49-virtualbox-guest-modules 
 sudo pacman -S linux49-virtualbox-host-modules
-reboot
+## reboot
+## VBoxManage list vms
+## VBoxManage unregistervm homestead --delete
 
 # 安装 Vagrant
 sudo pacman -S vagrant
