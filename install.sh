@@ -76,6 +76,8 @@ sudo pacman -S visual-studio-code
 
 # 外观
 sudo pacman -S paper-icon-theme-git
+yaourt -S gnome-shell-extension-topicons-plus-git
+
 
 # Grub 美化
 yaourt -S grub2-theme-vimix-git
