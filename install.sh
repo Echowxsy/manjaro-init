@@ -114,3 +114,8 @@ yaourt -S lib32-fontconfig lib32-gnutls
 ## 打开 CrossOver，选择试用
 ## sudo cp crossover-crack/winewrapper.exe.so /opt/cxoffice/lib/wine
 ## sudo cp fonts/msyh.ttf /opt/cxoffice/share/wine/fonts/ume-ui-gothic.ttf
+
+# 安装 pip
+yaourt -S python-pip
+# 安装 Python 模块
+sudo pip install bs4
