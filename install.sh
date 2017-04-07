@@ -77,6 +77,7 @@ sudo pacman -S visual-studio-code
 # 外观
 sudo pacman -S paper-icon-theme-git
 yaourt -S gnome-shell-extension-topicons-plus-git
+## 优化设置 扩展 TopIcons Plus 
 
 
 # Grub 美化
